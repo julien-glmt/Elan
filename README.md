@@ -8,6 +8,12 @@ App perso qui tourne sur ton Mac et s'ouvre dans le navigateur (Mac ou télépho
 2. Le navigateur s'ouvre sur `http://localhost:8742`. Connecte ton compte Garmin (e-mail, mot de passe, puis code de vérification si Garmin en demande un).
 3. Laisse la fenêtre du Terminal ouverte tant que tu utilises l'app.
 
+### Sur Windows
+1. Installe **Python 3.10+** depuis python.org en cochant **« Add python.exe to PATH »**.
+2. Double-clique sur **Lancer Elan (Windows).bat** (si Windows affiche « Windows a protégé votre ordinateur » : Informations complémentaires → Exécuter quand même).
+3. Le navigateur s'ouvre sur `http://localhost:8742`. Laisse la fenêtre noire ouverte tant que tu utilises l'app.
+- La sauvegarde automatique vise iCloud Drive (Mac) : sur Windows, indique un dossier dans `data/config.json` → `"backup_dir": "C:/Users/toi/OneDrive/Elan-sauvegardes"`.
+
 ## Sur le téléphone
 - Même wifi que le Mac : ouvre l'adresse affichée dans le Terminal (ex. `http://192.168.1.20:8742`), entre le **code PIN** affiché, puis Partager → **Sur l'écran d'accueil**.
 - Hors de chez toi : installe **Tailscale** (gratuit) sur le Mac et le téléphone, puis utilise l'adresse Tailscale du Mac (`http://100.x.y.z:8742`).
