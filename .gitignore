@@ -1,0 +1,13 @@
+data/
+data_demo/
+.venv/
+__pycache__/
+*.pyc
+cache/
+*.log
+*.tmp
+*.zip
+*.tgz
+garmin_tokens*.json
+.DS_Store
+COACH_INSTRUCTIONS.md

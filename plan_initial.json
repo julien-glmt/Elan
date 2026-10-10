@@ -1,0 +1,1520 @@
+{
+ "race": {
+  "name": "Mon marathon",
+  "date": "2026-11-08",
+  "goal": "2:59:00",
+  "distance_km": 42.195
+ },
+ "paces": {
+  "EF": [
+   "5:15",
+   "4:55"
+  ],
+  "AM": [
+   "4:16",
+   "4:12"
+  ],
+  "SEUILC": [
+   "4:05",
+   "3:55"
+  ],
+  "SEUIL": [
+   "4:00",
+   "3:50"
+  ],
+  "VMA": [
+   "3:28",
+   "3:15"
+  ],
+  "RECUP": [
+   "5:45",
+   "5:10"
+  ]
+ },
+ "pace_labels": {
+  "EF": "Endurance fondamentale (Z2 en pratique)",
+  "AM": "Allure marathon",
+  "SEUILC": "Seuil continu",
+  "SEUIL": "Seuil fractionné",
+  "VMA": "VMA / fractionné court",
+  "RECUP": "Récupération (Z1 / bas Z2)"
+ },
+ "athlete": {
+  "hr_max": 190,
+  "hr_rest": 55,
+  "weight_kg": 70,
+  "ref": ""
+ },
+ "hr_zones": [
+  {
+   "zone": 1,
+   "range": "125-139",
+   "use": "Récupération"
+  },
+  {
+   "zone": 2,
+   "range": "140-153",
+   "use": "Endurance fondamentale"
+  },
+  {
+   "zone": 3,
+   "range": "154-167",
+   "use": "Tempo / allure marathon"
+  },
+  {
+   "zone": 4,
+   "range": "168-182",
+   "use": "Seuil"
+  },
+  {
+   "zone": 5,
+   "range": "180-190",
+   "use": "VMA / anaérobie"
+  }
+ ],
+ "rules": [
+  "EF et sorties longues : vise 4:55-5:15/km et laisse la FC primer si les deux ne concordent pas.",
+  "Séances de qualité : l'allure pilote, la FC sert de garde-fou pour repérer une fatigue anormale.",
+  "Sur les longues avec segment AM, la FC dérive au-dessus de Z3 en fin d'effort : normal tant que l'allure tient et que tu peux parler par phrases courtes.",
+  "Le plan est une trame, pas une prison : si tu es cuit, on décale une séance plutôt que de forcer."
+ ],
+ "sessions": [
+  {
+   "date": "2026-09-14",
+   "type": "REPOS",
+   "title": "Repos complet",
+   "steps": [],
+   "description": "",
+   "id": "s001"
+  },
+  {
+   "date": "2026-09-15",
+   "type": "REPOS",
+   "title": "Repos ou marche légère",
+   "steps": [],
+   "description": "",
+   "id": "s002"
+  },
+  {
+   "date": "2026-09-16",
+   "type": "EF",
+   "title": "Footing test",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 4600
+     },
+     "target": {
+      "pace": "EF"
+     }
+    }
+   ],
+   "description": "Fait : 4,6 km / 25 min, 5:29/km, FC moy 140. Bien exécuté.",
+   "id": "s003"
+  },
+  {
+   "date": "2026-09-17",
+   "type": "EF",
+   "title": "Endurance fondamentale",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 8000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    }
+   ],
+   "description": "Fait : 7,95 km / 41 min, 5:10/km, FC moy 146. Réveil sans douleur le lendemain.",
+   "id": "s004"
+  },
+  {
+   "date": "2026-09-18",
+   "type": "RENFO",
+   "title": "Renfo léger",
+   "steps": [],
+   "description": "Fentes bulgares, mollets, gainage planche + latéral, proprioception chevilles, squats.",
+   "id": "s005"
+  },
+  {
+   "date": "2026-09-19",
+   "type": "EF",
+   "title": "Footing EF",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 9000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    }
+   ],
+   "description": "Fait : 9,06 km, 4:58/km, FC moy 152. Un peu collé au plafond de Z2 (fatigue résiduelle + D+).",
+   "id": "s006"
+  },
+  {
+   "date": "2026-09-20",
+   "type": "EF",
+   "title": "Footing fondamental",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 14000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    }
+   ],
+   "description": "Fait : 14,24 km, 5:16/km, FC moy 147.",
+   "id": "s007"
+  },
+  {
+   "date": "2026-09-21",
+   "type": "REPOS",
+   "title": "Repos complet",
+   "steps": [],
+   "description": "",
+   "id": "s008"
+  },
+  {
+   "date": "2026-09-22",
+   "type": "EF",
+   "title": "Footing EF",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 9000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    }
+   ],
+   "description": "Fait : 9,01 km, 5:01/km, FC moy 152 (peu de sommeil).",
+   "id": "s009"
+  },
+  {
+   "date": "2026-09-23",
+   "type": "SEUIL",
+   "title": "Seuil 5 × 1000 m",
+   "steps": [
+    {
+     "kind": "warmup",
+     "dur": {
+      "type": "distance",
+      "value": 3000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    },
+    {
+     "kind": "repeat",
+     "times": 5,
+     "steps": [
+      {
+       "kind": "run",
+       "dur": {
+        "type": "distance",
+        "value": 1000
+       },
+       "target": {
+        "pace": "SEUIL"
+       }
+      },
+      {
+       "kind": "recovery",
+       "dur": {
+        "type": "time",
+        "value": 90
+       },
+       "note": "Récup 90 s en marchant"
+      }
+     ]
+    },
+    {
+     "kind": "cooldown",
+     "dur": {
+      "type": "distance",
+      "value": 2000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    }
+   ],
+   "description": "Fait : 5×1000 à 3:47-3:51, FC 176→184. Trop vite : plutôt du VO2max que du seuil, récup insuffisante.",
+   "id": "s010"
+  },
+  {
+   "date": "2026-09-24",
+   "type": "EF",
+   "title": "Footing EF + Renfo",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 8500
+     },
+     "target": {
+      "pace": "EF"
+     }
+    }
+   ],
+   "description": "Fait : 8,53 km, 5:18/km, FC moy 144. Renfo décalé au vendredi.",
+   "id": "s011"
+  },
+  {
+   "date": "2026-09-25",
+   "type": "RENFO",
+   "title": "Renfo bas du corps + gainage",
+   "steps": [],
+   "description": "25-30 min (décalé du jeudi).",
+   "id": "s012"
+  },
+  {
+   "date": "2026-09-26",
+   "type": "EF",
+   "title": "Footing EF léger",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 9000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    }
+   ],
+   "description": "Fait : 9,04 km, 4:56/km, FC moy 148.",
+   "id": "s013"
+  },
+  {
+   "date": "2026-09-27",
+   "type": "SL",
+   "title": "Sortie longue 25 km",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 25000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    }
+   ],
+   "description": "Fait : 25,06 km, 5:14/km très stable, FC moy 146, drift 139→152 sans sortir de Z2.",
+   "id": "s014"
+  },
+  {
+   "date": "2026-09-28",
+   "type": "REPOS",
+   "title": "Repos complet",
+   "steps": [],
+   "description": "",
+   "id": "s015"
+  },
+  {
+   "date": "2026-09-29",
+   "type": "EF",
+   "title": "Footing EF",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 10000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    }
+   ],
+   "description": "Fait : 10,04 km, 5:06-5:13/km, FC moy 150, drift en fin de sortie à surveiller.",
+   "id": "s016"
+  },
+  {
+   "date": "2026-09-30",
+   "type": "SEUIL",
+   "title": "Seuil 6 × 1 km",
+   "steps": [
+    {
+     "kind": "warmup",
+     "dur": {
+      "type": "distance",
+      "value": 3000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    },
+    {
+     "kind": "repeat",
+     "times": 6,
+     "steps": [
+      {
+       "kind": "run",
+       "dur": {
+        "type": "distance",
+        "value": 1000
+       },
+       "target": {
+        "pace": "SEUILC"
+       }
+      },
+      {
+       "kind": "recovery",
+       "dur": {
+        "type": "time",
+        "value": 90
+       },
+       "note": "Récup 90 s en marchant"
+      }
+     ]
+    },
+    {
+     "kind": "cooldown",
+     "dur": {
+      "type": "distance",
+      "value": 1500
+     },
+     "target": {
+      "pace": "EF"
+     }
+    }
+   ],
+   "description": "Fait : 6×1 km à 3:49-3:58, FC 162-171. Net progrès vs la semaine précédente.",
+   "id": "s017"
+  },
+  {
+   "date": "2026-10-01",
+   "type": "EF",
+   "title": "Footing EF + Renfo allégé",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 10000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    }
+   ],
+   "description": "Fait : 10,07 km, 5:04/km, FC moy 148. Renfo allégé le soir : 15 min de gainage.",
+   "id": "s018"
+  },
+  {
+   "date": "2026-10-02",
+   "type": "EF",
+   "title": "Footing EF facile",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 8000
+     },
+     "target": {
+      "pace": "RECUP"
+     }
+    }
+   ],
+   "description": "8 km bas de Z2 / haut de Z1 (récupération active).",
+   "id": "s019"
+  },
+  {
+   "date": "2026-10-03",
+   "type": "EF",
+   "title": "Footing EF",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 10000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    }
+   ],
+   "description": "10 km en Z2.",
+   "id": "s020"
+  },
+  {
+   "date": "2026-10-04",
+   "type": "REPOS",
+   "title": "Repos / week-end entre potes",
+   "steps": [],
+   "description": "Repos ou footing très léger (20 min) selon dispo. Sortie longue décalée au lundi.",
+   "id": "s021"
+  },
+  {
+   "date": "2026-10-05",
+   "type": "SL",
+   "title": "Sortie longue 30 km, 5 derniers en Z3",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 25000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    },
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 5000
+     },
+     "target": {
+      "from": "4:25",
+      "to": "4:15"
+     },
+     "note": "Z3 soutenue"
+    }
+   ],
+   "description": "Décalée du dimanche. 25 km Z2 (4:55-5:15) + 5 derniers km en Z3 soutenue (4:15-4:25).",
+   "id": "s022"
+  },
+  {
+   "date": "2026-10-06",
+   "type": "REPOS",
+   "title": "Repos complet",
+   "steps": [],
+   "description": "Décalé du lundi, pour récupérer de la longue.",
+   "id": "s023"
+  },
+  {
+   "date": "2026-10-07",
+   "type": "SEUIL",
+   "title": "Seuil réduit 4 × 1000 m",
+   "steps": [
+    {
+     "kind": "warmup",
+     "dur": {
+      "type": "distance",
+      "value": 3000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    },
+    {
+     "kind": "repeat",
+     "times": 4,
+     "steps": [
+      {
+       "kind": "run",
+       "dur": {
+        "type": "distance",
+        "value": 1000
+       },
+       "target": {
+        "pace": "SEUIL"
+       }
+      },
+      {
+       "kind": "recovery",
+       "dur": {
+        "type": "time",
+        "value": 90
+       },
+       "note": "Récup 90 s en marchant"
+      }
+     ]
+    },
+    {
+     "kind": "cooldown",
+     "dur": {
+      "type": "distance",
+      "value": 2000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    }
+   ],
+   "description": "Allure seuil 3:50-4:00/km. Ne pas partir plus vite : c'est du seuil, pas de la VMA.",
+   "id": "s024"
+  },
+  {
+   "date": "2026-10-08",
+   "type": "EF",
+   "title": "Footing EF + Renfo complet",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 8000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    }
+   ],
+   "description": "Renfo bas du corps + gainage complet (semaine plus légère, bon moment).",
+   "id": "s025"
+  },
+  {
+   "date": "2026-10-09",
+   "type": "REPOS",
+   "title": "Repos complet",
+   "steps": [],
+   "description": "",
+   "id": "s026"
+  },
+  {
+   "date": "2026-10-10",
+   "type": "EF",
+   "title": "Footing EF léger",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 7000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    }
+   ],
+   "description": "",
+   "id": "s027"
+  },
+  {
+   "date": "2026-10-11",
+   "type": "SL",
+   "title": "Sortie longue réduite 20 km",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 20000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    }
+   ],
+   "description": "Entièrement facile, bas de Z2 : vraie récupération active, pas de segment rapide.",
+   "id": "s028"
+  },
+  {
+   "date": "2026-10-12",
+   "type": "REPOS",
+   "title": "Repos complet",
+   "steps": [],
+   "description": "",
+   "id": "s029"
+  },
+  {
+   "date": "2026-10-13",
+   "type": "EF",
+   "title": "Footing EF",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 8000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    }
+   ],
+   "description": "",
+   "id": "s030"
+  },
+  {
+   "date": "2026-10-14",
+   "type": "SEUIL",
+   "title": "Seuil 5 × 1200 m",
+   "steps": [
+    {
+     "kind": "warmup",
+     "dur": {
+      "type": "distance",
+      "value": 3000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    },
+    {
+     "kind": "repeat",
+     "times": 5,
+     "steps": [
+      {
+       "kind": "run",
+       "dur": {
+        "type": "distance",
+        "value": 1200
+       },
+       "target": {
+        "pace": "SEUIL"
+       }
+      },
+      {
+       "kind": "recovery",
+       "dur": {
+        "type": "time",
+        "value": 90
+       },
+       "note": "Récup 90 s en marchant"
+      }
+     ]
+    },
+    {
+     "kind": "cooldown",
+     "dur": {
+      "type": "distance",
+      "value": 2000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    }
+   ],
+   "description": "Allure seuil 3:50-4:00/km, récup 90 s marche.",
+   "id": "s031"
+  },
+  {
+   "date": "2026-10-15",
+   "type": "EF",
+   "title": "Footing EF + Renfo",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 8000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    }
+   ],
+   "description": "Renfo bas du corps + gainage.",
+   "id": "s032"
+  },
+  {
+   "date": "2026-10-16",
+   "type": "EF",
+   "title": "Footing EF facile",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 6000
+     },
+     "target": {
+      "pace": "RECUP"
+     }
+    }
+   ],
+   "description": "Bas de Z2.",
+   "id": "s033"
+  },
+  {
+   "date": "2026-10-17",
+   "type": "EF",
+   "title": "Footing EF",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 8000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    }
+   ],
+   "description": "",
+   "id": "s034"
+  },
+  {
+   "date": "2026-10-18",
+   "type": "SL",
+   "title": "Sortie longue 28 km dont 10 km AM",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 18000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    },
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 10000
+     },
+     "target": {
+      "from": "4:18",
+      "to": "4:12"
+     },
+     "note": "Allure marathon, FC 158-170 en montée progressive"
+    }
+   ],
+   "description": "Première vraie séance d'allure marathon sur longue distance. 2 segments distincts pour bien contrôler la transition.",
+   "id": "s035"
+  },
+  {
+   "date": "2026-10-19",
+   "type": "REPOS",
+   "title": "Repos complet",
+   "steps": [],
+   "description": "",
+   "id": "s036"
+  },
+  {
+   "date": "2026-10-20",
+   "type": "EF",
+   "title": "Footing EF",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 10000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    }
+   ],
+   "description": "",
+   "id": "s037"
+  },
+  {
+   "date": "2026-10-21",
+   "type": "SEUIL",
+   "title": "Seuil continu 7 km",
+   "steps": [
+    {
+     "kind": "warmup",
+     "dur": {
+      "type": "distance",
+      "value": 3000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    },
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 7000
+     },
+     "target": {
+      "pace": "SEUILC"
+     },
+     "note": "FC cible 168-178"
+    },
+    {
+     "kind": "cooldown",
+     "dur": {
+      "type": "distance",
+      "value": 2000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    }
+   ],
+   "description": "7 km allure seuil continue 3:55-4:05/km.",
+   "id": "s038"
+  },
+  {
+   "date": "2026-10-22",
+   "type": "EF",
+   "title": "Footing EF + Renfo allégé",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 12000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    }
+   ],
+   "description": "Semaine de charge max : gainage léger seulement.",
+   "id": "s039"
+  },
+  {
+   "date": "2026-10-23",
+   "type": "EF",
+   "title": "Footing EF facile",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 8000
+     },
+     "target": {
+      "pace": "RECUP"
+     }
+    }
+   ],
+   "description": "Bas de Z2.",
+   "id": "s040"
+  },
+  {
+   "date": "2026-10-24",
+   "type": "EF",
+   "title": "Footing EF",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 10000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    }
+   ],
+   "description": "",
+   "id": "s041"
+  },
+  {
+   "date": "2026-10-25",
+   "type": "SL",
+   "title": "SÉANCE CLÉ : 32 km dont 18 km AM",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 14000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    },
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 18000
+     },
+     "target": {
+      "pace": "AM"
+     },
+     "note": "Allure marathon 4:12-4:16"
+    }
+   ],
+   "description": "LA séance clé de la prépa, quasi-simulation de course. Mêmes gels, même timing, même petit-déj que le jour J.",
+   "id": "s042"
+  },
+  {
+   "date": "2026-10-26",
+   "type": "REPOS",
+   "title": "Repos complet",
+   "steps": [],
+   "description": "",
+   "id": "s043"
+  },
+  {
+   "date": "2026-10-27",
+   "type": "EF",
+   "title": "Footing EF",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 8000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    }
+   ],
+   "description": "",
+   "id": "s044"
+  },
+  {
+   "date": "2026-10-28",
+   "type": "SEUIL",
+   "title": "Seuil raccourci 5 km",
+   "steps": [
+    {
+     "kind": "warmup",
+     "dur": {
+      "type": "distance",
+      "value": 3000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    },
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 5000
+     },
+     "target": {
+      "pace": "SEUILC"
+     }
+    },
+    {
+     "kind": "cooldown",
+     "dur": {
+      "type": "distance",
+      "value": 2000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    }
+   ],
+   "description": "5 km allure seuil continue 3:55-4:05/km.",
+   "id": "s045"
+  },
+  {
+   "date": "2026-10-29",
+   "type": "EF",
+   "title": "Footing EF + gainage/mobilité",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 8000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    }
+   ],
+   "description": "Fin du renfo lourd bas du corps : gainage léger + mobilité seulement.",
+   "id": "s046"
+  },
+  {
+   "date": "2026-10-30",
+   "type": "REPOS",
+   "title": "Repos complet",
+   "steps": [],
+   "description": "",
+   "id": "s047"
+  },
+  {
+   "date": "2026-10-31",
+   "type": "EF",
+   "title": "Footing EF léger",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 7000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    }
+   ],
+   "description": "",
+   "id": "s048"
+  },
+  {
+   "date": "2026-11-01",
+   "type": "SL",
+   "title": "Sortie longue 24 km dont 10 km AM",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 14000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    },
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 10000
+     },
+     "target": {
+      "pace": "AM"
+     }
+    }
+   ],
+   "description": "Dernière vraie confirmation d'allure avant le taper final.",
+   "id": "s049"
+  },
+  {
+   "date": "2026-11-02",
+   "type": "EF",
+   "title": "Footing EF tranquille",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 10000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    }
+   ],
+   "description": "",
+   "id": "s050"
+  },
+  {
+   "date": "2026-11-03",
+   "type": "AM",
+   "title": "Affûtage 4 × 1000 m AM",
+   "steps": [
+    {
+     "kind": "warmup",
+     "dur": {
+      "type": "distance",
+      "value": 2000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    },
+    {
+     "kind": "repeat",
+     "times": 4,
+     "steps": [
+      {
+       "kind": "run",
+       "dur": {
+        "type": "distance",
+        "value": 1000
+       },
+       "target": {
+        "pace": "AM"
+       }
+      },
+      {
+       "kind": "recovery",
+       "dur": {
+        "type": "time",
+        "value": 120
+       },
+       "target": {
+        "pace": "RECUP"
+       },
+       "note": "Récup 2 min trot"
+      }
+     ]
+    },
+    {
+     "kind": "cooldown",
+     "dur": {
+      "type": "distance",
+      "value": 2000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    }
+   ],
+   "description": "Garder les jambes vives sans les fatiguer.",
+   "id": "s051"
+  },
+  {
+   "date": "2026-11-04",
+   "type": "REPOS",
+   "title": "Repos complet",
+   "steps": [],
+   "description": "",
+   "id": "s052"
+  },
+  {
+   "date": "2026-11-05",
+   "type": "EF",
+   "title": "Footing très facile + lignes droites",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 7500
+     },
+     "target": {
+      "pace": "RECUP"
+     }
+    },
+    {
+     "kind": "repeat",
+     "times": 4,
+     "steps": [
+      {
+       "kind": "run",
+       "dur": {
+        "type": "distance",
+        "value": 80
+       },
+       "note": "Ligne droite : accélération progressive, pas à fond"
+      },
+      {
+       "kind": "recovery",
+       "dur": {
+        "type": "time",
+        "value": 60
+       },
+       "note": "Retour en marchant/trottinant"
+      }
+     ]
+    }
+   ],
+   "description": "8 km Z1-Z2 bas + 4 × 80 m lignes droites.",
+   "id": "s053"
+  },
+  {
+   "date": "2026-11-06",
+   "type": "EF",
+   "title": "Footing très facile + lignes droites",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 5500
+     },
+     "target": {
+      "pace": "RECUP"
+     }
+    },
+    {
+     "kind": "repeat",
+     "times": 4,
+     "steps": [
+      {
+       "kind": "run",
+       "dur": {
+        "type": "distance",
+        "value": 80
+       },
+       "note": "Ligne droite : accélération progressive, pas à fond"
+      },
+      {
+       "kind": "recovery",
+       "dur": {
+        "type": "time",
+        "value": 60
+       },
+       "note": "Retour en marchant/trottinant"
+      }
+     ]
+    }
+   ],
+   "description": "6 km en Z1, décontracté.",
+   "id": "s054"
+  },
+  {
+   "date": "2026-11-07",
+   "type": "REPOS",
+   "title": "Repos complet – veille de course",
+   "steps": [],
+   "description": "Hydratation, sommeil, matériel et nutrition prêts. Footing d'ouverture de 15 min possible seulement si ça détend.",
+   "id": "s055"
+  },
+  {
+   "date": "2026-11-08",
+   "type": "COURSE",
+   "title": "MARATHON – jour J",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 42195
+     },
+     "target": {
+      "pace": "AM"
+     },
+     "note": "4:12-4:16/km"
+    }
+   ],
+   "description": "Départ 8h place de la Bourse (horaire provisoire). Objectif sub-3h. Allure qui pilote, FC en garde-fou.",
+   "id": "s056"
+  },
+  {
+   "id": "pm01",
+   "date": "2026-11-09",
+   "type": "REPOS",
+   "title": "Récup marathon – repos complet",
+   "steps": [],
+   "description": "Lendemain de marathon : repos total. Marche tranquille si tu as envie, beaucoup d'eau, repas complets. Les courbatures sont normales jusqu'à J+3."
+  },
+  {
+   "id": "pm02",
+   "date": "2026-11-10",
+   "type": "REPOS",
+   "title": "Récup – marche 20-30 min",
+   "steps": [],
+   "description": "Marche facile pour faire circuler le sang. Pas de course."
+  },
+  {
+   "id": "pm03",
+   "date": "2026-11-11",
+   "type": "REPOS",
+   "title": "Récup – repos",
+   "steps": [],
+   "description": "Si les escaliers redeviennent faciles, tu pourras courir jeudi."
+  },
+  {
+   "id": "pm04",
+   "date": "2026-11-12",
+   "type": "AUTRE",
+   "title": "Récup active – vélo ou marche 30-40 min",
+   "steps": [],
+   "description": "Effort très facile sans impact (vélo, marche rapide). Si une douleur précise persiste (tendon, tibia, genou) : kiné avant de reprendre."
+  },
+  {
+   "id": "pm05",
+   "date": "2026-11-13",
+   "type": "EF",
+   "title": "Reprise – footing 5 km très facile",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 5000
+     },
+     "target": {
+      "pace": "RECUP"
+     },
+     "note": "Très lent, FC sous 140"
+    }
+   ],
+   "description": "Premier footing post-marathon. Arrête-toi au moindre signal de douleur localisée."
+  },
+  {
+   "id": "pm06",
+   "date": "2026-11-14",
+   "type": "REPOS",
+   "title": "Repos",
+   "steps": [],
+   "description": ""
+  },
+  {
+   "id": "pm07",
+   "date": "2026-11-15",
+   "type": "EF",
+   "title": "Footing nature 7 km avec quelques côtes",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 7000
+     },
+     "target": {
+      "pace": "RECUP"
+     },
+     "note": "Côtes en marchant si besoin"
+    }
+   ],
+   "description": "Sur chemins si possible, pour réhabituer les chevilles au terrain. Monte les côtes en marchant rapide."
+  },
+  {
+   "id": "pm08",
+   "date": "2026-11-16",
+   "type": "REPOS",
+   "title": "Repos",
+   "steps": [],
+   "description": ""
+  },
+  {
+   "id": "pm09",
+   "date": "2026-11-17",
+   "type": "EF",
+   "title": "Footing 8 km + 4 lignes droites",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 7500
+     },
+     "target": {
+      "pace": "EF"
+     }
+    },
+    {
+     "kind": "repeat",
+     "times": 4,
+     "steps": [
+      {
+       "kind": "run",
+       "dur": {
+        "type": "distance",
+        "value": 80
+       },
+       "note": "Ligne droite relâchée"
+      },
+      {
+       "kind": "recovery",
+       "dur": {
+        "type": "time",
+        "value": 60
+       },
+       "note": "Retour en trottinant"
+      }
+     ]
+    }
+   ],
+   "description": "Les jambes doivent redevenir légères. Si la VFC est encore basse, reste en bas de Z2."
+  },
+  {
+   "id": "pm10",
+   "date": "2026-11-18",
+   "type": "EF",
+   "title": "Côtes douces + descentes techniques",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "time",
+      "value": 900
+     },
+     "target": {
+      "pace": "EF"
+     },
+     "note": "Échauffement"
+    },
+    {
+     "kind": "repeat",
+     "times": 6,
+     "steps": [
+      {
+       "kind": "run",
+       "dur": {
+        "type": "time",
+        "value": 60
+       },
+       "note": "Montée en marche rapide / trot, effort modéré (Z3)"
+      },
+      {
+       "kind": "recovery",
+       "dur": {
+        "type": "time",
+        "value": 90
+       },
+       "note": "Descente trottinée : pas courts, regard loin"
+      }
+     ]
+    },
+    {
+     "kind": "run",
+     "dur": {
+      "type": "time",
+      "value": 600
+     },
+     "target": {
+      "pace": "EF"
+     },
+     "note": "Retour au calme"
+    }
+   ],
+   "description": "Pas de fractionné : on prépare les muscles aux montées et surtout aux descentes (quadriceps). Bâtons si tu comptes en utiliser."
+  },
+  {
+   "id": "pm11",
+   "date": "2026-11-19",
+   "type": "REPOS",
+   "title": "Repos",
+   "steps": [],
+   "description": ""
+  },
+  {
+   "id": "pm12",
+   "date": "2026-11-20",
+   "type": "EF",
+   "title": "Footing 6 km facile",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 6000
+     },
+     "target": {
+      "pace": "EF"
+     }
+    }
+   ],
+   "description": "Dernière sortie avant le trail. Prépare chaussures trail, gilet, frontale si départ tôt."
+  },
+  {
+   "id": "pm13",
+   "date": "2026-11-21",
+   "type": "REPOS",
+   "title": "Repos – veille du trail",
+   "steps": [],
+   "description": "Sac prêt : gilet + 2 flasques, 3-4 gels, coupe-vent, téléphone. Dîner avec des féculents."
+  },
+  {
+   "date": "2026-11-22",
+   "type": "COURSE",
+   "title": "Course de reprise",
+   "steps": [
+    {
+     "kind": "run",
+     "dur": {
+      "type": "distance",
+      "value": 24000
+     },
+     "note": "Finir tranquille : marche dans les montées raides, Z2-Z3, prudence en descente"
+    }
+   ],
+   "description": "Objectif : finir en bon état, pas de chrono, 2 semaines après le marathon.\n- Pars lentement, laisse partir les autres sur le premier kilomètre\n- Montées raides : marche active, mains sur les cuisses\n- Descentes : pas courts, regard 3-4 m devant, c'est là que les quadriceps fatigués du marathon souffriront\n- Nutrition : 40-50 g/h (1 gel toutes les 40 min), boire à chaque ravito\n- Douleur qui change ta foulée : on marche, et on abandonne sans regret si elle s'aggrave",
+   "id": "s057"
+  }
+ ]
+}
